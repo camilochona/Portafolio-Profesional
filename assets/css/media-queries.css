@@ -26,14 +26,20 @@
     .work__img {
       width: 295px;
     }
-    .contact__info {
+    .contact__info,
+    .education__info {
       grid-template-columns: repeat(2, 300px);
       justify-content: center;
+      grid-template-rows: 300px;
     }
   }
   @media screen and (min-width: 767px) {
     .work__container {
       grid-template-columns: repeat(2, max-content);
+    }
+    .contact__info,
+    .education__info {
+      gap: 3rem;
     }
   }
   
@@ -103,8 +109,9 @@
     .work__title {
       margin-bottom: .5rem;
     }
-    .contact__container {
-      column-gap: 6rem;
+    .contact__info,
+    .education__info {
+      gap: 6rem;
     }
     .footer__social-link {
       font-size: 1.25rem;

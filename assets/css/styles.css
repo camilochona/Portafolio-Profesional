@@ -142,7 +142,8 @@ body.light-theme {
 
 .light-theme .skills__content,
 .light-theme .work__card,
-.light-theme .contact__card{
+.light-theme .contact__card,
+.light-theme .education__card{
   box-shadow: 0 2px 16px hsla(219, 48%, 8%, .1);
 }
 
@@ -484,6 +485,10 @@ body.light-theme {
   font-size: var(--tiny-font-size);
 }
 /*--------------> WORK -------------->*/
+.work .button__work{
+  text-align: center;
+  padding-top: 3rem;
+}
 .work__container {
   padding-top: 1rem;
 }
@@ -522,8 +527,10 @@ body.light-theme {
   font-size: 1rem;
   transition: .4s;
 }
-/*--------------> CONTACT -------------->*/
-.contact__container {
+
+/*--------------> CONTACT && EDUCATION -------------->*/
+.contact__container,
+.education__container {
   row-gap: 3rem;
   padding-bottom: 3rem;  
 }
@@ -534,39 +541,47 @@ body.light-theme {
   margin-bottom: 1.5rem;
 }
 
-.contact__info {
+.contact__info,
+.education__info {
   display: grid;
   gap: 1rem;
 }
 
-.contact__card {
+.contact__card,
+.education__card {
   background-color: var(--container-color);
-  padding: 1rem;
+  padding: 5rem 1rem;
   border-radius: .75rem;
   text-align: center;
 }
 
-.contact__card-icon {
+.contact__card-icon,
+.education__card-icon {
   font-size: 2rem;
   color: var(--title-color);
   margin-bottom: .25rem;
 }
 
 .contact__card-title,
-.contact__card-data {
+.contact__card-data,
+.education__card-title,
+.education__card-data {
   font-size: var(--small-font-size);
 }
 
-.contact__card-title {
+.contact__card-title,
+.education__card-title {
   font-weight: var(--font-medium);
 }
 
-.contact__card-data {
+.contact__card-data,
+.education__card-data {
   display: block;
   margin-bottom: .75rem;
 }
 
-.contact__button {
+.contact__button,
+.education__button {
   color: var(--first-color);
   font-size: var(--small-font-size);
   display: flex;
@@ -575,11 +590,13 @@ body.light-theme {
   column-gap: .25rem;
 }
 
-.contact__button:hover .contact__button-icon {
+.contact__button:hover .contact__button-icon,
+.education__button:hover .education__button-icon {
   transform: translateX(.25rem);
 }
 
-.contact__button-icon {
+.contact__button-icon,
+.education__button-icon {
   font-size: 1rem;
   transition: .4s;
 }
