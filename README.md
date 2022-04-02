@@ -1,6 +1,6 @@
-🔥 Sitio web de portafolio responsive Juca
 
-🔥 Sitio web de portafolio responsive
+
+🔥 Sitio web de portafolio responsive Juca
 
    - Sitio web de portafolio responsive usando HTML CSS y JavaScript
    - Desplazamiento suave en cada sección.
