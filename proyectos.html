@@ -9,56 +9,151 @@
         <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./assets/css/blogs.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
         <title> Proyectos </title>
 </head>
 <body>
+
+    <header class="header" id="header">
+        <nav class="nav container__slider">
+            <a href="index.html" class="nav__logo">JUCA</a>
+
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
     <section class="slider">
         <div class="slider__container container">
-            <i class='bx bx-left-arrow-alt slider__arrow' id="before"></i>
+
+            <i class='bx bx-left-arrow-alt slider__arrow__back' id="before"></i>
 
             <section class="slider__body slider__body--show" data-id="1">
                  <div class="slider__texts">
-                    <h2 class="subtitle">Hola soy camilo</h2>
+                    <h2 class="subtitle">Figuras Geometricas</h2>
                     <p class="slider__review">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempora expedita deserunt dolore distinctio, odio pariatur molestiae nulla nihil eos, inventore, vel impedit accusamus fugiat reiciendis asperiores atque ullam earum?
+                        Figuras Geometricas nace como un proyecto y reto personal para integrar JavaScript con HTML y CSS, este proyecto pagina web esta fue creado meramente con las tecnologias ya dichas ademas se hizo bajo el diseño de mobile first.
                     </p>
+                    <a href="https://camilochona.github.io/calculadoraNeon/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
                  </div>
-
                 <figure class="slider__picture">
-                    <img src="./assets/img/work1.jpg" class="slider__img" alt="">
+                    <img src="./assets/img/proyectos/figuras.PNG" class="slider__img" alt="">
                 </figure>
             </section>
 
             <section class="slider__body" data-id="2">
                 <div class="slider__texts">
-                   <h2 class="subtitle">Hola soy Daniela</h2>
+                   <h2 class="subtitle">Wiki Clon</h2>
                    <p class="slider__review">
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempora expedita deserunt dolore distinctio, odio pariatur molestiae nulla nihil eos, inventore, vel impedit accusamus fugiat reiciendis asperiores atque ullam earum?
+                    Proyecto para reforzar conocimientos de HTML y CSS, reforce conceptos como posicionamiento, modelo de cajas, tipos de Display, selectores como clases, IDS, Flexbox y Grid.
                    </p>
+                   <a href="https://camilochona.github.io/WikiClone/" class="link__button" target="_blank">
+                    Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                </a>
                 </div>
-
                <figure class="slider__picture">
-                   <img src="./assets/img/work2.jpg" class="slider__img" alt="">
+                   <img src="./assets/img/proyectos/WikiClon.PNG" class="slider__img" alt="">
                </figure>
            </section>
            
            <section class="slider__body" data-id="3">
-            <div class="slider__texts">
-               <h2 class="subtitle">Hola soy Sebastian</h2>
-               <p class="slider__review">
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempora expedita deserunt dolore distinctio, odio pariatur molestiae nulla nihil eos, inventore, vel impedit accusamus fugiat reiciendis asperiores atque ullam earum?
-               </p>
-            </div>
+                <div class="slider__texts">
+                    <h2 class="subtitle">Batatabit</h2>
+                    <p class="slider__review">
+                        Maquetacion totalmente responsive a base unicamente de HTML y CSS, respetando principios de diseno movile first y siguiendo modelado en figma el 50% del tráfico en internet se realiza desde dispositivos móviles, convirtiendo una prioridad el desarrollar frontend para smartphones, tablets y laptops.
+                    </p>
+                    <a href="https://camilochona.github.io/AppBitcoin/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/Batatabit.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
 
-           <figure class="slider__picture">
-               <img src="./assets/img/work3.jpg" class="slider__img" alt="">
-           </figure>
-       </section>
+           <section class="slider__body" data-id="4">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Card Businnes</h2>
+                    <p class="slider__review">
+                        Este es un gran pequeño desafío que me ayudo a acostumbrame a construir según un diseño. No hay JS en este proyecto, por lo que me pude concentrar en mis habilidades de HTML y CSS ademas fue contruido bajo mobile first.
+                    </p>
+                    <a href="https://camilochona.github.io/cardBusiness-/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/card-businnes.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
 
+           <section class="slider__body" data-id="5">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Dibujando con CSS</h2>
+                    <p class="slider__review">
+                        Hice este reto como para complementar mis conocimientos de CSS y HTML ademas de que se trabaja con posiciones y dimenciones, sin duda alguna es desafiante dibujar con CSS pero ayuda mucho para reforzar dichos conceptos, por otro lado me alejare del dibujo con css y que con este tuve suficiente.
+                    </p>
+                    <a href="https://camilochona.github.io/DibujandoConCSS/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/hombres-calvos.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
+           <section class="slider__body" data-id="6">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Google Clon</h2>
+                    <p class="slider__review">
+                        Proyecto para reforzar conocimientos de HTML y CSS, reforce conceptos como posicionamiento, modelo de cajas, tipos de Display, selectores como clases, IDS, Flexbox y Grid.
+                    </p>
+                    <a href="https://camilochona.github.io/GoogleClone/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/Google-Clone.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
+           <section class="slider__body" data-id="7">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Card QR</h2>
+                    <p class="slider__review">
+                        Un primer desafío perfecto si eres nuevo en HTML y CSS. El diseño de la tarjeta no cambia, por lo que es ideal si aún no ha aprendido a crear diseños adaptables.
+                    </p>
+                    <a href="https://camilochona.github.io/RetoQR/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/QR.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
+           <section class="slider__body" data-id="8">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Menu Restaurante</h2>
+                    <p class="slider__review">
+                        Proyecto personal donde aprendi a crear layouts dinámicos con CSS Grid. Construi grillas para distribuir sus contenedores y elementos HTML ágilmente en esta pagina complementando con CSS y contruido bajo mobile first.
+                    </p>
+                    <a href="https://camilochona.github.io/MenuRestaurante/" class="link__button" target="_blank">
+                        Ver más <i class='bx bx-right-arrow-alt link__icon'></i>
+                    </a>
+                </div>
+                <figure class="slider__picture">
+                    <img src="./assets/img/proyectos/restaurante.PNG" class="slider__img" alt="">
+                </figure>
+           </section>
+       
             <i class='bx bx-right-arrow-alt slider__arrow' id="next"></i>
         </div>
     </section>
 
+    <my-element>
+    </my-element>
+
     <script src="assets/js/sliders.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script type="module" src="assets/js/footer.js"></script>
 </body>
 </html>

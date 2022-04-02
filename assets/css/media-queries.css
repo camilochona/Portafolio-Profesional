@@ -45,7 +45,8 @@
   
   /* For large devices */
   @media screen and (min-width: 992px) {
-    .container {
+    .container,
+    .container__slider  {
       margin-left: auto;
       margin-right: auto;
     }

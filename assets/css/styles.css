@@ -131,8 +131,7 @@ body.light-theme {
 .light-theme .home__scroll,
 .light-theme .button,
 .light-theme .button:hover,
-.light-theme .footer__title, 
-.light-theme .footer__link{
+.light-theme .footer__title{
   color: var(--title-color);
 }
 
@@ -640,6 +639,10 @@ body.light-theme {
   border-radius: .25rem;
   font-size: 1rem;
   display: inline-flex;
+}
+
+.footer__social-link:hover {
+  color: #fff;
 }
 
 /*--------------> SCROLL BAR -------------->*/
